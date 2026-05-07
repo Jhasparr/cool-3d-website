@@ -1,8 +1,8 @@
-
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
 
 export const nulshock = localFont({
   src: "../public/fonts/nulshock.ttf",
@@ -30,7 +30,10 @@ export default function RootLayout({
       lang="en"
       className={`${montserrat.variable} ${nulshock.variable} h-full antialiased`}
     >
-      <body className={montserrat.className}>{children}</body>
+      <body className={montserrat.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

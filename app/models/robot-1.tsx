@@ -36,7 +36,7 @@ type GLTFResult = GLTF & {
 }
 
 export function Robot_1(props: JSX.IntrinsicElements['group']) {
-  const { nodes, materials } = useGLTF('/elements/robot-1.gltf') as unknown as GLTFResult
+  const { nodes, materials } = useGLTF('/elements/robot-1/robot-1.gltf') as unknown as GLTFResult
 
    const ref = useRef<THREE.Group>(null!)
 
@@ -97,4 +97,4 @@ export function Robot_1(props: JSX.IntrinsicElements['group']) {
   )
 }
 
-useGLTF.preload('/elements/robot-1.gltf')
+useGLTF.preload('/elements/robot-1/robot-1.gltf')
