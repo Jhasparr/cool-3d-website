@@ -14,7 +14,7 @@ export default function Navbar() {
           <h1 className="text-2xl">Class Name</h1>
         </div>
 
-        <div className="flex flex-row text-white font-bold gap-32.5">
+        <div className="flex flex-row text-white font-bold gap-25">
           <h3>shop</h3>
           <h3>blog</h3>
           <h3>about</h3>

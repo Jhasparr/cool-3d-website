@@ -13,7 +13,7 @@ export default function Generative_3D() {
     <div className="bg-white text-white w-full h-full  mx-auto 2xl:container">
       <div className="h-10 bg-white" />
 
-      <div className="bg-[url('/generate-bg.svg')] px-4 relative bg-cover w-full  h-full">
+      <div className="bg-[url('/generate-bg.svg')] px-4 relative bg-cover w-full mt-20  h-full">
         <h3
           className={`${nulshock.className} text-[60px] absolute top-10 text-black md:leading-18  py-2 z-30 px-2 w-full md:px-10 2xl:px-20`}
         >
