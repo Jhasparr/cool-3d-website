@@ -2,7 +2,6 @@
 
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import { Robot_1 } from "../models/robot-1";
 import { useEffect, useState } from "react";
 import { Robot_2 } from "../models/robot-2";
 

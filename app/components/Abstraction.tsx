@@ -1,6 +1,5 @@
 import React from "react";
 import { nulshock } from "../layout";
-import Scene_1 from "../scenes/scene-1";
 import Scene_2 from "../scenes/scene-2";
 
 const icons = [
@@ -10,7 +9,8 @@ const icons = [
 ];
 export default function Abstraction() {
   return (
-    <div className="w-full h-full text-black bg-white ">
+    <div className="w-full h-full  text-black bg-white ">
+     
       <div className="flex flex-col md:flex-row relative justify-between gap-20 w-full h-full">
         {/* Lhs */}
         <div className="mt-20 grid relative px-2 w-full md:px-10 2xl:px-20">
@@ -24,7 +24,7 @@ export default function Abstraction() {
           />
           <div className="col-start-1 row-start-1 flex flex-col gap-6 justify-self-end self-center ">
             {icons.map((itm, idx) => (
-              <img src={itm.src} className=" w-[57px] mr-2 " key={idx} />
+              <img src={itm.src} className=" w-[50px] mr-2 " key={idx} />
             ))}
           </div>
 
@@ -54,11 +54,11 @@ export default function Abstraction() {
           <div className="grid text-white">
             <img
               src="/ai.svg"
-              className="col-start-1 row-start-1 w-full h-full"
+              className="col-start-1 row-start-1 w-full  h-full"
             />
 
-            <div className="col-start-1 row-start-1 relative flex flex-col uppercase    gap-8 p-8">
-              <h3 className={`${nulshock.className} text-[30px]`}>
+            <div className="col-start-1 row-start-1 relative  flex flex-col gap-8 p-8">
+              <h3 className={`${nulshock.className} text-[28px] w-full`}>
                 ARTIFICIAL INTELLIGENCE
               </h3>
               <p className="mr-30 text-[18px]">
@@ -67,11 +67,10 @@ export default function Abstraction() {
                 aliquam erat volutpat. Ut wisi enim ad minim veniam
               </p>
               <img
-              src="/button-1.svg"
-              className="absolute z-10 bottom-3 right-0  w-[94px] "
-            />
+                src="/button-1.svg"
+                className="absolute z-10 bottom-3 right-0  w-[94px] "
+              />
             </div>
-            
           </div>
         </div>
       </div>
