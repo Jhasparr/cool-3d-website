@@ -90,7 +90,7 @@ export default function Generative_3D() {
                   </div>
                 </div>
               </div>
-              <div className="w-full h-full  absolute z-1 top-25 md:top-35 left-40">
+              <div className="w-fit h-full  absolute z-1 top-25 md:top-35 right-0">
                 <Scene_3 />
               </div>
             </div>

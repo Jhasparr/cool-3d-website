@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Abstraction from "./components/Abstraction";
 import Geenerative from "./components/Geenerative";
 import Generative_3D from "./components/Generative_3D";
+import Course from "./components/Course";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <Hero />
     <Abstraction />
     <Generative_3D />
+    <Course />
     
 
   </div>
