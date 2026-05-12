@@ -6,6 +6,8 @@ import Abstraction from "./components/Abstraction";
 import Geenerative from "./components/Geenerative";
 import Generative_3D from "./components/Generative_3D";
 import Course from "./components/Course";
+import NFT from "./components/NFT";
+
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
     <Abstraction />
     <Generative_3D />
     <Course />
+    <NFT />
+
     
 
   </div>
