@@ -7,13 +7,13 @@ export default function NFT() {
       <div className="h-10 bg-white" />
       <div className="px-2 md:px-10 2xl:px-20 flex flex-col justify-center items-center">
         <div>
-          <h1 className={`${nulshock.className} text-black text-[60px] mt-20`}>
+          <h1 className={`${nulshock.className} text-black text-[40px] md:text-[60px] mt-30`}>
           3D NFT COLLECTION
         </h1>
 
         </div>
         
-        <div className="mt-20 flex items-center justify-center gap-20">
+        <div className="mt-20 flex flex-col md:flex-row items-center justify-center gap-20">
           <div>
              <img
                 src="/left.svg"

@@ -66,11 +66,8 @@ export function Car_1(props: JSX.IntrinsicElements['group']) {
   const { nodes, materials } = useGLTF('/elements/car-1/scene.gltf') as unknown as GLTFResult
   const carRef = useRef<THREE.Group>(null);
 
-useFrame(() => {
-  if (!carRef.current) return;
 
-  carRef.current.position.x += 0.01;
-});
+
   return (
     <group {...props} ref={carRef} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]} scale={0.549}>
@@ -159,12 +156,14 @@ useFrame(() => {
           material={materials.car_paint}
         />
         <mesh
+       
           castShadow
           receiveShadow
           geometry={nodes.Cylinder_0.geometry}
           material={materials.rubber}
         />
         <mesh
+       
           castShadow
           receiveShadow
           geometry={nodes.Cylinder_1.geometry}

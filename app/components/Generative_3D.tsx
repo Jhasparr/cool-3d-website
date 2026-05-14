@@ -15,7 +15,7 @@ export default function Generative_3D() {
 
       <div className="bg-[url('/generate-bg.svg')] px-4 relative bg-cover w-full mt-20  h-full">
         <h3
-          className={`${nulshock.className} text-[60px] absolute top-10 text-black md:leading-18  py-2 z-30 px-2 w-full md:px-10 2xl:px-20`}
+          className={`${nulshock.className} text-[40px] md:text-[60px] absolute top-10 text-black md:leading-18  py-2 z-30 px-2 w-full md:px-10 2xl:px-20`}
         >
           Generate 3d <br />
           with ai
@@ -95,19 +95,7 @@ export default function Generative_3D() {
               </div>
             </div>
 
-            <div className=" md:hidden flex mt-10 flex-col w-full h-full gap-16">
-              <img
-                src="/get-app.svg"
-                alt=""
-                className="w-fit h-fit relative "
-              />
-              <h3 className="absolute text-[24px] left-12 mt-10 ">GET APP</h3>
-
-              <div className="absolute mt-35 flex flex-col left-10 gap-7 ">
-                <img src="/app-store.svg" alt="" className="" />
-                <img src="/windows.svg" alt="" />
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>
