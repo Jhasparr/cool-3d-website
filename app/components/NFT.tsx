@@ -1,5 +1,9 @@
 import React from "react";
 import { nulshock } from "../layout";
+import Image from "next/image";
+import leftSvg from "@/public/left.svg";
+import middleSvg from "@/public/middle.svg";
+import rightSvg from "@/public/right.svg";
 
 export default function NFT() {
   return (
@@ -7,23 +11,23 @@ export default function NFT() {
       <div className="h-10 bg-white" />
       <div className="px-2 md:px-10 2xl:px-20 flex flex-col justify-center items-center">
         <div>
-          <h1 className={`${nulshock.className} text-black text-[40px] md:text-[60px] mt-30`}>
+          <h1 className={`${nulshock.className} text-black text-[40px] md:text-[60px] mt-20 md:mt-30`}>
           3D NFT COLLECTION
         </h1>
 
         </div>
         
-        <div className="mt-20 flex flex-col md:flex-row items-center justify-center gap-20">
+        <div className="mt-10 md:mt-20 flex flex-col md:flex-row items-center justify-center gap-20">
           <div>
-             <img
-                src="/left.svg"
+             <Image
+                src={leftSvg}
                 alt=""
                 className=""
               />
           </div>
           <div className="relative">
-             <img
-                src="/middle.svg"
+             <Image
+                src={middleSvg}
                 alt=""
                 className=""
               />
@@ -33,8 +37,8 @@ export default function NFT() {
               </div>
           </div>
           <div>
-             <img
-                src="/right.svg"
+             <Image
+                src={rightSvg}
                 alt=""
                 className=""
               />

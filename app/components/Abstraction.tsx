@@ -1,30 +1,40 @@
 import React from "react";
 import { nulshock } from "../layout";
 import Scene_2 from "../scenes/scene-2";
+import Image from "next/image";
+import abstractSvg from "@/public/abstarct.svg";
+import bfSvg from "@/public/bf.svg";
+import cameraSvg from "@/public/camera.svg";
+import penSvg from "@/public/pen.svg";
+import computerSvg from "@/public/computer.svg";
+import aiSvg from "@/public/ai.svg";
+import button1Svg from "@/public/button-1.svg";
 
 const icons = [
-  { src: "/camera.svg" },
-  { src: "/pen.svg" },
-  { src: "/computer.svg" },
+  { src: cameraSvg },
+  { src: penSvg },
+  { src: computerSvg },
 ];
 export default function Abstraction() {
   return (
     <div className="w-full h-full  text-black bg-white ">
      
-      <div className="flex flex-col md:flex-row relative justify-between gap-20 w-full h-full">
+      <div className="flex flex-col-reverse md:flex-row relative justify-between gap-20 w-full h-full">
         {/* Lhs */}
         <div className="mt-20 grid relative px-2 w-full md:px-10 2xl:px-20">
-          <img
-            src="/abstarct.svg"
+          <Image
+            src={abstractSvg}
+            alt=""
             className="w-full col-start-1 row-start-1 h-full"
           />
-          <img
-            src="/bf.svg"
+          <Image
+            src={bfSvg}
+            alt=""
             className="w-full col-start-1 row-start-1 h-full"
           />
           <div className="col-start-1 row-start-1 flex flex-col gap-6 justify-self-end self-center ">
             {icons.map((itm, idx) => (
-              <img src={itm.src} className=" w-[50px] mr-2 " key={idx} />
+              <Image src={itm.src} alt="" className=" w-[50px] mr-2 " key={idx} />
             ))}
           </div>
 
@@ -52,8 +62,9 @@ export default function Abstraction() {
           {/* Blackbox */}
 
           <div className="grid text-white">
-            <img
-              src="/ai.svg"
+            <Image
+              src={aiSvg}
+              alt=""
               className="col-start-1 row-start-1 w-full  h-full"
             />
 
@@ -66,8 +77,9 @@ export default function Abstraction() {
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat. Ut wisi enim ad minim veniam
               </p>
-              <img
-                src="/button-1.svg"
+              <Image
+                src={button1Svg}
+                alt=""
                 className="absolute z-10 bottom-3 right-0  w-[94px] "
               />
             </div>

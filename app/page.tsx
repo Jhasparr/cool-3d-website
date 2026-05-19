@@ -11,7 +11,7 @@ import NFT from "./components/NFT";
 
 export default function Home() {
   return (
-  <div className="w-full h-full px-4  mx-auto 2xl:container">
+  <div className="w-full h-full   mx-auto 2xl:container">
     <Hero />
     <Abstraction />
     <Generative_3D />

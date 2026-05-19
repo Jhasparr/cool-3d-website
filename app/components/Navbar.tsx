@@ -1,10 +1,14 @@
 import React from "react";
 import { div } from "three/tsl";
+import Image from "next/image";
+import cartsvg1 from "@/public/cart.svg";
+import housesvg2 from "@/public/house.svg";
+import personsvg3 from "@/public/person.svg";
 
 const icons = [
-  { src: "/cart.svg" },
-  { src: "/house.svg" },
-  { src: "/person.svg" },
+  { src: cartsvg1 },
+  { src: housesvg2 },
+  { src: personsvg3 },
 ];
 export default function Navbar() {
   return (
@@ -24,7 +28,7 @@ export default function Navbar() {
         <div className="flex flex-row  gap-7.75">
           {icons.map((itm, idx) => (
             <div key={idx}>
-              <img src={itm.src}></img>
+              <Image src={itm.src} alt="" />
             </div>
           ))}
         </div>
