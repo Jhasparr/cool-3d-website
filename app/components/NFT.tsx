@@ -1,4 +1,3 @@
-import React from "react";
 import { nulshock } from "../layout";
 import Image from "next/image";
 import leftSvg from "@/public/left.svg";
@@ -7,7 +6,7 @@ import rightSvg from "@/public/right.svg";
 
 export default function NFT() {
   return (
-    <div className="bg-white text-white w-full h-full px-4 mx-auto 2xl:container ">
+    <div className="bg-white text-white w-full h-full px-2 md:px-4 mx-auto 2xl:container ">
       <div className="h-10 bg-white" />
       <div className="px-2 md:px-10 2xl:px-20 flex flex-col justify-center items-center">
         <div>

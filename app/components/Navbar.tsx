@@ -1,5 +1,3 @@
-import React from "react";
-import { div } from "three/tsl";
 import Image from "next/image";
 import cartsvg1 from "@/public/cart.svg";
 import housesvg2 from "@/public/house.svg";
