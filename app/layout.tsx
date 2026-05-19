@@ -1,13 +1,8 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
-
-export const nulshock = localFont({
-  src: "../public/fonts/nulshock.ttf",
-  variable: "--font-nullshock",
-});
+import { nulshock } from "./fonts";
 
 const montserrat = Montserrat({
   subsets: ["latin"],

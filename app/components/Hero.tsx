@@ -1,5 +1,5 @@
 import React from 'react'
-import { nulshock } from '../layout'
+import { nulshock } from '../fonts'
 import Scene_1 from '../scenes/scene-1'
 import Image from "next/image";
 import appstoresvg1 from "@/public/app-store.svg";

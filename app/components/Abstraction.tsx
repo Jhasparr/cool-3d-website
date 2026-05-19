@@ -1,5 +1,5 @@
 import React from "react";
-import { nulshock } from "../layout";
+import { nulshock } from "../fonts";
 import Scene_2 from "../scenes/scene-2";
 import Image from "next/image";
 import abstractSvg from "@/public/abstarct.svg";

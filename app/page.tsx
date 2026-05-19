@@ -3,19 +3,19 @@ import Abstraction from "./components/Abstraction";
 import Generative_3D from "./components/Generative_3D";
 import Course from "./components/Course";
 import NFT from "./components/NFT";
-
+import Pricing from "./components/Pricing";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
-  <div className="w-full h-full   mx-auto 2xl:container">
-    <Hero />
-    <Abstraction />
-    <Generative_3D />
-    <Course />
-    <NFT />
-
-    
-
-  </div>
+    <div className="w-full h-full mx-auto 2xl:container">
+      <Hero />
+      <Abstraction />
+      <Generative_3D />
+      <Course />
+      <NFT />
+      <Pricing />
+      <Contact />
+    </div>
   );
 }

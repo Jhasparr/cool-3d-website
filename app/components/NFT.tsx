@@ -1,4 +1,4 @@
-import { nulshock } from "../layout";
+import { nulshock } from "../fonts";
 import Image from "next/image";
 import leftSvg from "@/public/left.svg";
 import middleSvg from "@/public/middle.svg";
